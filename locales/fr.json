@@ -1,0 +1,158 @@
+{
+  "messages": {
+    "work-experience": "EXPÉRIENCE PROFESSIONNELLE",
+    "next": "Suite",
+    "education": "ÉDUCATION",
+    "skills": "COMPÉTENCES",
+    "page-number": "Page {current} sur {total}",
+    "programming-skills" : "COMPÉTENCES EN PROGRAMMATION",
+    "online-courses": "COURS ET CERTIFICATS EN LIGNE",
+    "view-certificate": "Voir le certificat ↗",
+    "view-on-github": "Voir sur GitHub ↗",
+    "personal-projects": "PROJETS PERSONNELS",
+    "achievements": "RÉALISATIONS",
+    "languages": "LANGUES",
+    "interests": "CENTRE D'INTÉRÊTS"
+  },
+  "pi": {
+    "title": "Développeur Full Stack",
+    "bio": "Amoureux des nouvelles technologies depuis toujours, Wilson est un développeur d'apps autodidacte qui a rejoint sa première entreprise fin 2019 en tant que développeur Web Front End. Intrigué par le développement d'apps de bout en bout, il a progressé pour devenir un développeur Full Stack avec des compétences en gestion de projet, en architecture logicielle et en SEO.\n\nIl est très enthousiaste à l'idée de relever le défi de rejoindre une nouvelle équipe, en travaillant bien avec cette équipe pour atteindre leurs objectifs."
+  },
+  "contacts": {
+    "location": "Yaoundé, Cameroun"
+  },
+  "we": [
+    {
+      "title": "Full Stack JavaScript Developer, Head of back-end development",
+      "location": "Yaoundé, Cameroun",
+      "achievements": [
+        "Mise en place d'une architecture qui suit les règles SOA et les principes SOLID pour nos applications back-end, ce qui permet un développement plus rapide des API pour les projets;",
+        "Développement du front-end avec NuxtJS, développement du back-end (REST API) avec NodeJS pour l'application refraiche ([Voir le résultat ↗](https://alpha.refraiche.com/ \"Voir le résultat ↗\"));",
+        "Géstion de l'ensemble du cycle de vie du développement d'une application en temps réel pour le compteur de participants aux événements ([Voir le résultat ↗](http://149.202.41.46:4000 \"Voir le résultat ↗\"));",
+        "Développement d'une page d'accueil pour le site web de BISI Tires ([Voir le résultat ↗](http://bisi-tires.com/ \"Voir le résultat ↗\"))."
+      ]
+    },
+    {
+      "title": "Développeur PHP, Chef de projet technique",
+      "location": "Yaoundé, Cameroun",
+      "description": "Cette période de 6 mois a été consacrée au développement d'une nouvelle solution de réservation d'hôtels et d'appartements meublés [PNBooking.com ↗](https://pnbooking.com \"PNBooking.com ↗\").",
+      "achievements": [
+        "Proposition de solution aux problèmes techniques pour la réalisation des modules de l'application et résolution des bugs sur l'application en production;",
+        "Développement de modules Prestashop pour étendre les fonctionnalités de l'application;",
+        "Mise en place d'une stratégie de référencement avec les balises standards, le vocabulaire Schema.org, les cartes twitter et l'open graph de Facebook;"
+      ]
+    },
+    {
+      "title": "Freelance Full Stack Developer",
+      "location": "Yaoundé, Cameroun",
+      "description": "Mi'djamo est un prestataire de soins médicaux qui aide les hôpitaux à étendre leurs services jusqu'au domicile des patients. ([Voir sur Google Play ↗](https://play.google.com/store/apps/details?id=com.proxicare \"Voir sur Google Play ↗\"))",
+      "achievements": [
+        "Développement de l’applications mobile avec React Native;",
+        "Développement d'API REST en back-end avec express JS."
+      ]
+    },
+    {
+      "title": "Développeur Front-End Freelance",
+      "location": "Yaoundé, Cameroun",
+      "description": "Kathalog est un site de recherche et de découverte de restaurants. Cette plateforme révèle la géolocalisation, les photos, les adresses et les menus des restaurants du Cameroun.",
+      "achievements": [
+        "Développement d'un tableau de bord pour gérer les opérations de lecture, et mettre à jour les ressources de l'application Kathalog.net;",
+        "Intégrer l'application back-end pour toutes les vues;",
+        "Réalisation de tests manuels pour s'assurer du bon fonctionnement de l'application."
+      ]
+    },
+    {
+      "title": "Développeur Front-End",
+      "location": "Yaoundé, Cameroun",
+      "achievements": [
+        "Créer des composants pour l'application web refraiche en utilisant l'approche de conception atomique;",
+        "Effectuer des tests en utilisant jest et Vue test utils;",
+        "Mise en place et développement du site web du centre médical sportif Yaoundé ([Voir le résultat ↗](https://centremedicalsportif-yaounde.com/ \"Voir le résultat ↗\"))."
+      ]
+    },
+    {
+      "title": "Développeur de logiciels (stage)",
+      "location": "Yaoundé, Cameroun",
+      "achievements": [
+        "Recherche et présentations sur les concepts de développement front-end ;",
+        "Assistance aux développeurs expérimentés pour les tâches de test manuel et l'établissement de rapports."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "title": "Licence En Informatique",
+      "school": "University De Yaoundé 1",
+      "location": "Yaoundé, Cameroun"
+    },
+    {
+      "title": "Baccalaureat C En Mathematiques et Physique",
+      "school": "Lycée General Leclerc",
+      "location": "Yaoundé, Cameroun"
+    }
+  ],
+  "skills": [
+    "Travail d'équipe",
+    "Design de données",
+    "Revue de code",
+    "Gestion du temps",
+    "DevOps",
+    "QA & Test Automation",
+    "Bonne communication",
+    "Responsive Design",
+    "Sens du détail",
+    "Adaptabilité",
+    "Orienté résultats",
+    "Analyse de systèmes",
+    "Autodidacte"
+  ],
+  "ps": [
+    {
+      "title": "Front End"
+    },
+    {
+      "title": "Back End"
+    },
+    {
+      "title": "Design"
+    },
+    {
+      "title": "Integration Continue & Systèmes"
+    },
+    {
+      "title": "Bases de données"
+    },
+    {
+      "title": "Test automation"
+    }
+  ],
+  "personal-projects": [
+    {
+      "description": "Note PWA est une application construite sur les API javascript modernes pour stocker des notes sur le navigateur."
+    },
+    {
+      "description": "Création de tables de vérité d'expressions logiques sous forme conjonctive, son rôle est de lire et d'analyser une expression puis de générer sa table de vérité."
+    }
+  ],
+  "achievements": [
+    {
+      "title": "Top Contributor",
+      "description": "Top contributor du cours “Introduction à la programmation en JAVA” sur coursera depuis Juin 2020."
+    },
+    {
+      "title": "HacktoberFest 2021",
+      "description": "J'ai terminé avec succès le hacktoberfest 2021, ce qui m'a permis de demander qu'un arbre soit planté à cette fin."
+    }
+  ],
+  "languages": [
+    {
+      "name": "Français",
+      "level": "Compétence native ou bilingue"
+    },
+    {
+      "name": "Anglais",
+      "level": "Compétences professionnelles de travail"
+    }
+  ],
+  "interests": ["Jeux vidéo", "Astronomie", "Vélo", "Open Source", "Séries politique", "Histoire"]
+}

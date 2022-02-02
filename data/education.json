@@ -1,0 +1,20 @@
+[
+  {
+    "title": "education.0.title",
+    "school": "education.0.school",
+    "location": "education.0.location",
+    "period": {
+      "start": "09/2015",
+      "end": "09/2020"
+    }
+  },
+  {
+    "title": "education.1.title",
+    "school": "education.1.school",
+    "location": "education.1.location",
+    "period": {
+      "start": "09/2012",
+      "end": "09/2015"
+    }
+  }
+]

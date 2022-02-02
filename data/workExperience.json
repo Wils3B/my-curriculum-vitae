@@ -1,0 +1,80 @@
+[
+  {
+    "title": "we.0.title",
+    "company": "PNTEC Ltd",
+    "location": "we.0.location",
+    "period": {
+      "start": "02/2021",
+      "end": "11/2021"
+    },
+    "achievements": "we.0.achievements",
+    "technologies": [
+      "TypeScript",
+      "NodeJS",
+      "Vue JS",
+      "MongoDB",
+      "Testcafe",
+      "Jest",
+      "Redis",
+      "Docker"
+    ]
+  },
+  {
+    "title": "we.1.title",
+    "company": "PNTEC Ltd",
+    "location": "we.1.location",
+    "period": {
+      "start": "02/2021",
+      "end": "11/2021"
+    },
+    "description": "we.1.description",
+    "achievements": "we.1.achievements",
+    "technologies": ["PHP", "Smarty", "MySQL", "nginx", "Prestashop", "HTML 5", "CSS 3"]
+  },
+  {
+    "title": "we.2.title",
+    "company": "Mi'djamo",
+    "location": "we.1.location",
+    "period": {
+      "start": "05/2021",
+      "end": "06/2021"
+    },
+    "description": "we.2.description",
+    "achievements": "we.2.achievements",
+    "technologies": ["JavaScript", "NodeJS", "Express", "React Native", "Android"]
+  },
+  {
+    "title": "we.3.title",
+    "company": "Kathalog",
+    "location": "we.3.location",
+    "period": {
+      "start": "09/2020",
+      "end": "10/2020"
+    },
+    "description": "we.3.description",
+    "achievements": "we.3.achievements",
+    "technologies": ["JavaScript", "Express", "Firebase", "VueJS"]
+  },
+  {
+    "title": "we.4.title",
+    "company": "PNTEC Ltd",
+    "location": "we.4.location",
+    "period": {
+      "start": "01/2020",
+      "end": "07/2020"
+    },
+    "achievements": "we.4.achievements",
+    "technologies": ["JavaScript", "VueJS", "HTML 5", "CSS 3"]
+  },
+  {
+    "title": "we.5.title",
+    "company": "PNTEC Ltd",
+    "location": "we.5.location",
+    "period": {
+      "start": "10/2019",
+      "end": "12/2019"
+    },
+    "achievements": "we.5.achievements",
+    "technologies": ["JavaScript", "HTML 5", "CSS 3"]
+  }
+]

@@ -1,0 +1,160 @@
+{
+  "messages": {
+    "work-experience": "Work Experience",
+    "next": "Next",
+    "education": "Education",
+    "skills": "Skills",
+    "page-number": "Page {current} of {total}",
+    "programming-skills" : "Programming Skills",
+    "online-courses": "Online Courses & Certificates",
+    "view-certificate": "View Certificate ↗",
+    "view-on-github": "View on GitHub ↗",
+    "personal-projects": "Personal Projects",
+    "achievements": "Achievements",
+    "languages": "Languages",
+    "interests": "Interests"
+  },
+  "pi": {
+    "title": "Full Stack Software Developer",
+    "bio": "A lifelong lover of new technologies, Wilson is a self-taught app developer who joined his first company in late 2019 as a Front End Web Developer. Intrigued by end-to-end app development, he progressed to become a Full Stack developer with skills in project management, software architecture, and SEO.\n\nHe is very excited about the challenge of joining a new team, working well with this team to achieve their goals."
+  },
+  "contacts": {
+    "location": "Yaoundé, Cameroon"
+  },
+  "we": [
+    {
+      "title": "Full Stack JavaScript Developer, Head of back-end development",
+      "location": "Yaoundé, Cameroon",
+      "achievements": [
+        "Establishment of an architecture that follows SOA rules and SOLID principles for our back end applications resulting in faster development of APIs for software projects;",
+        "Front-end development with NuxtJS, back-end development (REST API) with NodeJS for the refraiche application ([View result ↗](https://alpha.refraiche.com/ \"View result ↗\"));",
+        "Performing tests using jest and Vue test utils;",
+        "Manage entire development life cycle of real time application for events participants counter ([View result ↗](http://149.202.41.46:4000 \"View result ↗\"));",
+        "Development of landing page for BISI Tires website ([View result ↗](http://bisi-tires.com/ \"View result ↗\"))."
+      ]
+    },
+    {
+      "title": "PHP Developer, Technical project leader",
+      "location": "Yaoundé, Cameroon",
+      "description": "This 6 month period was dedicated to the development of a new solution for booking hotels and furnished apartments [PNBooking.com ↗](https://pnbooking.com \"PNBooking.com ↗\")",
+      "achievements": [
+        "Proposal of solution to the technical problems for the realization of the modules of the application;",
+        "Development of new Prestashop modules to extend the functionality of the application;",
+        "Implementation of an SEO strategy with standard tags, Schema.org vocabulary, twitter cards and Facebook open graph;",
+        "Resolution of bugs on the application in production."
+      ]
+    },
+    {
+      "title": "Freelance Full Stack Developer",
+      "location": "Yaoundé, Cameroon",
+      "description": "Mi'djamo is a medical care provider that helps hospitals extend services to patient doorsteps. ([View on Google Play ↗](https://play.google.com/store/apps/details?id=com.proxicare \"View on Google Play ↗\"))",
+      "achievements": [
+        "Mobile Application development with React Native;",
+        "Back-end REST API develoopmemt with express JS."
+      ]
+    },
+    {
+      "title": "Freelance Front-End Developer",
+      "location": "Yaoundé, Cameroon",
+      "description": "Kathalog is a restaurant search and discovery site. This platform reveals the geolocation, photos, addresses and menus of restaurants in Cameroon.",
+      "achievements": [
+        "Development of a dashboard to manage the reading operations, and update the resources of the Kathalog.net application;",
+        "Integrate back-end application for all views;",
+        "Perform manual tests to ensure that the application is working properly"
+      ]
+    },
+    {
+      "title": "Front-End Developer",
+      "location": "Yaoundé, Cameroon",
+      "achievements": [
+        "Create components for the refraiche web application using atomic design approach;",
+        "Performing tests using jest and Vue test utils;",
+        "Set up and develop landing page for centre medical sportif website ([View result ↗](https://centremedicalsportif-yaounde.com/ \"View result ↗\"))."
+      ]
+    },
+    {
+      "title": "Software developer (Internship)",
+      "location": "Yaoundé, Cameroon",
+      "achievements": [
+        "Research and presentations on front-end development concepts;",
+        "Assistance to experienced developers with manual testing tasks and reporting."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "title": "Bachelor In Computer Sciences",
+      "school": "University Of Yaounde 1",
+      "location": "Yaounde, Cameroon"
+    },
+    {
+      "title": "Baccalaureat C In Mathematics and Physics",
+      "school": "General Leclerc Secondary School",
+      "location": "Yaounde, Cameroon"
+    }
+  ],
+  "skills": [
+    "Teamwork",
+    "Data Modeling",
+    "Code Review",
+    "Time management",
+    "DevOps",
+    "QA & Test Automation",
+    "Good Communication",
+    "Responsive Design",
+    "Problems Solving",
+    "Attention to detail",
+    "Adaptability",
+    "Results Oriented",
+    "Systems Analysis"
+  ],
+  "ps": [
+    {
+      "title": "Front End"
+    },
+    {
+      "title": "Back End"
+    },
+    {
+      "title": "Design"
+    },
+    {
+      "title": "Continuous Integration & SysEng"
+    },
+    {
+      "title": "Databases"
+    },
+    {
+      "title": "Test automation tools"
+    }
+  ],
+  "personal-projects": [
+    {
+      "description": "Note PWA is an application build on top of the modern javascript APIs for storing notes browser side."
+    },
+    {
+      "description": "Creation of truth tables of logical expressions in conjunctive form, its role is to read and parse an expression then generate its truth table."
+    }
+  ],
+  "achievements": [
+    {
+      "title": "Top Contributor",
+      "description": "Top contributor to “Introduction à la programmation en JAVA” course at coursera since June 2020."
+    },
+    {
+      "title": "HacktoberFest 2021",
+      "description": "Successfully completed the hacktoberfest 2021, which allowed me to request that a tree be planted for this purpose."
+    }
+  ],
+  "languages": [
+    {
+      "name": "French",
+      "level": "Native or Bilingual Proficiency"
+    },
+    {
+      "name": "English",
+      "level": "Professional Working Proficiency"
+    }
+  ],
+  "interests": ["Video Games", "Astronomy", "Bicycle", "Open Source", "Political Series", "History"]
+}
