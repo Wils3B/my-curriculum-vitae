@@ -3,8 +3,7 @@
     <h5 class="fw-medium">{{ $t(education.title) }}</h5>
     <h6 class="fw-medium text-light">
       {{ $t(education.school) }}
-      · {{ $t(education.location) }}
-      · {{ education.period.start }} - {{ education.period.end }}
+      · {{ $t(education.location) }} · {{ education.period.start }} - {{ education.period.end }}
     </h6>
   </section>
 </template>

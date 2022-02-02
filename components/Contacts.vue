@@ -1,9 +1,11 @@
 <template>
-  <div class='negative-margins'>
-    <div class='contacts sm-text'>
-      <div v-for='contact in contacts' :key='contact.key'>
-        <Icon :icon='contact.icon' class='text-primary' />
-        <a v-if='contact.link' :href='contact.link' target='_blank' class='text-black'>{{ $t(contact.value) }}</a>
+  <div class="negative-margins">
+    <div class="contacts sm-text">
+      <div v-for="contact in contacts" :key="contact.key">
+        <Icon :icon="contact.icon" class="text-primary" />
+        <a v-if="contact.link" :href="contact.link" target="_blank" class="text-black">{{
+          $t(contact.value)
+        }}</a>
         <span v-else>{{ $t(contact.value) }}</span>
       </div>
     </div>
@@ -25,7 +27,7 @@ export default {
 };
 </script>
 
-<style lang='scss' scoped>
+<style lang="scss" scoped>
 .contacts {
   background-color: rgba($primary, 0.2);
   display: flex;

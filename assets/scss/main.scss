@@ -2,12 +2,15 @@
   font-size: 10px;
 }
 
-.sm-text, p, .p {
+.sm-text,
+p,
+.p {
   font-size: 1.1rem;
 }
 
 @media print {
-  :root, html {
+  :root,
+  html {
     font-size: 17px;
   }
 }
@@ -28,7 +31,7 @@
   text-transform: uppercase;
   color: $primary;
 
-  &>.icon {
+  & > .icon {
     font-size: 1.5em;
     vertical-align: middle;
     margin-right: 0.5rem;
@@ -46,7 +49,7 @@
   padding: 2rem 3rem;
   position: relative;
 
-  &>.page-number {
+  & > .page-number {
     position: absolute;
     bottom: 1rem;
     right: 1rem;
@@ -62,4 +65,3 @@
     height: 100%;
   }
 }
-

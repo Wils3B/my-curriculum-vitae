@@ -9,7 +9,7 @@
       </h4>
       <WorkExperience :experience="experiences[0]" class="first" />
       <WorkExperience :experience="experiences[1]" />
-      <WorkExperience :experience="experiences[2]" class='pb-0' />
+      <WorkExperience :experience="experiences[2]" class="pb-0" />
     </section>
     <span class="page-number">
       {{ $t('messages.page-number', { current: 1, total: 4 }) }}
