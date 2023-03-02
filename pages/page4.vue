@@ -18,7 +18,7 @@
       <PersonalProjects :projects="personalProjects" />
     </section>
 
-    <section class="mt-4 py-1">
+    <section class="py-1">
       <h4 class="section-title mb-3">
         <Icon class="icon" :icon="icons.goldFilled" />
         <span class="section-title__text">{{ $t('messages.achievements') }}</span>
@@ -26,7 +26,7 @@
       <Achievements :achievements="achievements" />
     </section>
 
-    <section class="mt-4 py-1">
+    <section class="mt-2 py-1">
       <h4 class="section-title mb-3">
         <Icon class="icon" :icon="icons.translate" />
         <span class="section-title__text">{{ $t('messages.languages') }}</span>
@@ -34,7 +34,7 @@
       <Languages :languages="languages" />
     </section>
 
-    <section class="mt-4 py-1">
+    <section class="mt-2 py-1">
       <h4 class="section-title mb-3">
         <Icon class="icon" :icon="icons.pacMan" />
         <span class="section-title__text">{{ $t('messages.interests') }}</span>
@@ -72,7 +72,7 @@ export default {
   data() {
     return {
       icons: { certificate24Filled, projectFilled, goldFilled, translate, pacMan },
-      certificates: certificates.slice(16),
+      certificates: certificates.slice(10, certificates.length),
       personalProjects,
       achievements,
       languages,
@@ -82,9 +82,15 @@ export default {
 </script>
 
 <style scoped>
-@media print {
+/* @media print {
   .page-number {
     transform: translateY(120px);
+  }
+} */
+
+@media print {
+  .page-number {
+    transform: translateY(15px);
   }
 }
 </style>

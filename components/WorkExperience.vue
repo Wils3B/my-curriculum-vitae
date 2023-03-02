@@ -1,5 +1,8 @@
 <template>
-  <section class="experience py-3 position-relative overflow-hidden">
+  <section
+    class="experience py-3 position-relative"
+    :class="{ current: experience.isCurrent, 'overflow-hidden': !experience.isCurrent }"
+  >
     <h5 class="fw-medium">{{ $t(experience.title) }}</h5>
     <h6 class="fw-medium text-light">
       {{ experience.company }}
@@ -51,6 +54,11 @@ export default {
     width: 1rem;
     background-color: $primary;
     border-radius: 50%;
+    z-index: 2;
+  }
+
+  &.current::after {
+    background-color: $primary;
     z-index: 2;
   }
 

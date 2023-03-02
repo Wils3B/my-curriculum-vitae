@@ -16,12 +16,29 @@
   },
   "pi": {
     "title": "Full Stack Software Developer",
-    "bio": "A lifelong lover of new technologies, Wilson is a self-taught app developer who joined his first company in late 2019 as a Front End Web Developer. Intrigued by end-to-end app development, he progressed to become a Full Stack developer with skills in project management, software architecture, and SEO.\n\nHe is very excited about the challenge of joining a new team, working well with this team to achieve their goals."
+    "bio": "A lifelong lover of new technologies, Wilson is a self-taught app developer who joined his first company in late 2019 as a Front End Web Developer. Intrigued by end-to-end app development, he progressed to become a Full Stack developer with skills in project management, software architecture, and SEO. With his skills as a front-end developer and hard worker, he was the technical project manager for the development of the PNBooking product for his company in August 2020.\n\nHe is very excited about the challenge of joining a new team, working well with this team to achieve their goals."
   },
   "contacts": {
     "location": "Yaoundé, Cameroon"
   },
   "we": [
+    {
+      "title": "Software Engineer Consultant",
+      "location": "",
+      "description": "As a consultant, I am on assignment at [Quable](https://quable.com/ \"Quable\"), working on the Quable's PIM as a FrontEnd developer",
+      "achievements": [
+        "Implement new React components and integrate them into pages on a full front-end refactoring process;",
+        "Fixing detected bugs."
+      ]
+    },
+    {
+      "title": "Software Engineer",
+      "location": "",
+      "achievements": [
+        "Designing websites and applications using NodeJS/ReactJS",
+        "Develop a client/server Pong game to learn GoLang. [View on Github](https://github.com/moderndesignagency/pong-exercise \"View on Github\") | [Play Game](https://md-pong-exercise.web.app/ \"Play Game\")"
+      ]
+    },
     {
       "title": "Full Stack JavaScript Developer, Head of back-end development",
       "location": "Yaoundé, Cameroon",
@@ -40,8 +57,7 @@
       "achievements": [
         "Proposal of solution to the technical problems for the realization of the modules of the application;",
         "Development of new Prestashop modules to extend the functionality of the application;",
-        "Implementation of an SEO strategy with standard tags, Schema.org vocabulary, twitter cards and Facebook open graph;",
-        "Resolution of bugs on the application in production."
+        "Implementation of an SEO strategy with standard tags, Schema.org vocabulary, twitter cards and Facebook open graph."
       ]
     },
     {
@@ -59,8 +75,7 @@
       "description": "Kathalog is a restaurant search and discovery site. This platform reveals the geolocation, photos, addresses and menus of restaurants in Cameroon.",
       "achievements": [
         "Development of a dashboard to manage the reading operations, and update the resources of the Kathalog.net application;",
-        "Integrate back-end application for all views;",
-        "Perform manual tests to ensure that the application is working properly"
+        "Integrate back-end application for all views."
       ]
     },
     {
@@ -83,7 +98,7 @@
   ],
   "education": [
     {
-      "title": "Bachelor In Computer Sciences",
+      "title": "Bac+2 in Mathematics and Physics",
       "school": "University Of Yaounde 1",
       "location": "Yaounde, Cameroon"
     },

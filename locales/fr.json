@@ -23,7 +23,14 @@
   },
   "we": [
     {
-      "title": "Full Stack JavaScript Developer, Head of back-end development",
+      "title": "Ingénieur Logiciel",
+      "location": "",
+      "achievements": [
+        "Conception de sites web et d'applications à l'aide de NodeJS/ReactJS"
+      ]
+    },
+    {
+      "title": "Développeur Full Stack JavaScript",
       "location": "Yaoundé, Cameroun",
       "achievements": [
         "Mise en place d'une architecture qui suit les règles SOA et les principes SOLID pour nos applications back-end, ce qui permet un développement plus rapide des API pour les projets;",
@@ -81,7 +88,7 @@
   ],
   "education": [
     {
-      "title": "Licence En Informatique",
+      "title": "Bac+2 en Mathématique et Science Physique",
       "school": "University De Yaoundé 1",
       "location": "Yaoundé, Cameroun"
     },

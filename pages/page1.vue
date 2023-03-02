@@ -1,7 +1,7 @@
 <template>
   <div class="page" ref="page">
     <PersonalInformation :data="personalInformation" class="mb-4" />
-    <Contacts :contacts="contacts" />
+    <Contacts :contacts="contacts" class="mb-1" />
     <section class="pt-4">
       <h4 class="section-title mb-2">
         <Icon class="icon" :icon="icons.outlineWorkIcon" />
@@ -41,3 +41,17 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+/* @media print {
+  .page-number {
+    transform: translateY(20px);
+  }
+} */
+
+@media print {
+  .page-number {
+    transform: translateY(-10px);
+  }
+}
+</style>

@@ -1,23 +1,20 @@
 <template>
-  <div class="negative-margins">
-    <div class="contacts sm-text">
-      <div v-for="contact in contacts" :key="contact.key">
-        <Icon :icon="contact.icon" class="text-primary" />
-        <a v-if="contact.link" :href="contact.link" target="_blank" class="text-black">{{
-          $t(contact.value)
-        }}</a>
-        <span v-else>{{ $t(contact.value) }}</span>
-      </div>
+  <div class="negative-margins sm-text text-center">
+    <div class="contacts pb-0">
+      <Contact v-for="contact in contacts.slice(0, 3)" :contact="contact" :key="contact.key" class='col-12 col-md-4' />
+    </div>
+    <div class="contacts pt-0">
+      <Contact v-for="contact in contacts.slice(3)" :contact="contact" :key="contact.key" class='col-12 col-md-4' />
     </div>
   </div>
 </template>
 
 <script>
-import { Icon } from '@iconify/vue2';
+import Contact from '~/components/Contact';
 
 export default {
   name: 'Contacts',
-  components: { Icon },
+  components: { Contact },
   props: {
     contacts: {
       type: Array,
@@ -29,14 +26,15 @@ export default {
 
 <style lang="scss" scoped>
 .contacts {
-  background-color: rgba($primary, 0.2);
   display: flex;
   justify-content: space-between;
-  padding: 1.4rem 1.6rem;
+  padding: 0.6rem 1.6rem;
+  flex-flow: row wrap;
 }
 
 .negative-margins {
   margin: 0 -3rem;
+  background-color: rgba($light, 0.1);
 }
 
 .text-black {
