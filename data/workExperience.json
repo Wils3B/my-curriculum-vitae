@@ -1,13 +1,52 @@
 [
   {
     "title": "we.0.title",
+    "company": "Smart Consulting Center",
+    "location": "Remote, Full Time",
+    "period": {
+      "start": "06/2022",
+      "end": "11/2022"
+    },
+    "description": "we.0.description",
+    "achievements": "we.0.achievements",
+    "technologies": [
+      "TypeScript",
+      "React.JS",
+      "React Testing Library",
+      "Enzyme",
+      "Docker"
+    ],
+    "isCurrent": false
+  },
+  {
+    "title": "we.1.title",
+    "company": "Modern Design Agency",
+    "location": "Part Time",
+    "period": {
+      "start": "01/2022",
+      "end": "06/2022"
+    },
+    "achievements": "we.1.achievements",
+    "technologies": [
+      "TypeScript",
+      "NodeJS",
+      "React.JS",
+      "Gatsby",
+      "Contentful",
+      "GoLang",
+      "Github Actions"
+    ],
+    "isCurrent": false
+  },
+  {
+    "title": "we.2.title",
     "company": "PNTEC Ltd",
-    "location": "we.0.location",
+    "location": "we.1.location",
     "period": {
       "start": "02/2021",
       "end": "11/2021"
     },
-    "achievements": "we.0.achievements",
+    "achievements": "we.2.achievements",
     "technologies": [
       "TypeScript",
       "NodeJS",
@@ -17,64 +56,70 @@
       "Jest",
       "Redis",
       "Docker"
-    ]
+    ],
+    "isCurrent": false
   },
   {
-    "title": "we.1.title",
+    "title": "we.3.title",
     "company": "PNTEC Ltd",
-    "location": "we.1.location",
+    "location": "we.2.location",
     "period": {
       "start": "08/2020",
       "end": "01/2021"
     },
-    "description": "we.1.description",
-    "achievements": "we.1.achievements",
-    "technologies": ["PHP", "Smarty", "MySQL", "nginx", "Prestashop", "HTML 5", "CSS 3"]
+    "description": "we.3.description",
+    "achievements": "we.3.achievements",
+    "technologies": ["PHP", "Smarty", "MySQL", "nginx", "Prestashop", "HTML 5", "CSS 3"],
+    "isCurrent": false
   },
   {
-    "title": "we.2.title",
+    "title": "we.4.title",
     "company": "Mi'djamo",
-    "location": "we.1.location",
+    "location": "we.4.location",
     "period": {
       "start": "05/2021",
       "end": "06/2021"
     },
-    "description": "we.2.description",
-    "achievements": "we.2.achievements",
-    "technologies": ["JavaScript", "NodeJS", "Express", "React Native", "Android"]
+    "description": "we.4.description",
+    "achievements": "we.4.achievements",
+    "technologies": ["JavaScript", "NodeJS", "Express", "React Native", "Android"],
+    "isCurrent": false
   },
   {
-    "title": "we.3.title",
+    "title": "we.5.title",
     "company": "Kathalog",
-    "location": "we.3.location",
+    "location": "we.5.location",
     "period": {
       "start": "09/2020",
       "end": "10/2020"
     },
-    "description": "we.3.description",
-    "achievements": "we.3.achievements",
-    "technologies": ["JavaScript", "Express", "Firebase", "VueJS"]
+    "description": "we.5.description",
+    "achievements": "we.5.achievements",
+    "technologies": ["JavaScript", "Express", "Firebase", "VueJS"],
+    "isCurrent": false
   },
   {
-    "title": "we.4.title",
+    "title": "we.6.title",
     "company": "PNTEC Ltd",
-    "location": "we.4.location",
+    "location": "we.6.location",
     "period": {
       "start": "01/2020",
       "end": "07/2020"
     },
-    "achievements": "we.4.achievements",
-    "technologies": ["JavaScript", "VueJS", "HTML 5", "CSS 3"]
+    "achievements": "we.6.achievements",
+    "technologies": ["JavaScript", "VueJS", "HTML 5", "CSS 3"],
+    "isCurrent": false
   },
   {
-    "title": "we.5.title",
+    "title": "we.7.title",
     "company": "PNTEC Ltd",
-    "location": "we.5.location",
+    "location": "we.7.location",
     "period": {
       "start": "10/2019",
       "end": "12/2019"
     },
-    "achievements": "we.5.achievements",
-    "technologies": ["JavaScript", "HTML 5", "CSS 3"]
+    "achievements": "we.7.achievements",
+    "technologies": ["JavaScript", "HTML 5", "CSS 3"],
+    "isCurrent": false
   }
 ]
