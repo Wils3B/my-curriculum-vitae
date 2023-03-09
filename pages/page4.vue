@@ -2,7 +2,7 @@
   <div class="page">
     <section class="py-1">
       <h4 class="section-title mb-3">
-        <Icon class="icon" :icon="icons.certificate24Filled" />
+        <Icon class="icon" name="fluent:certificate-24-filled" />
         <span class="section-title__text"
           >{{ $t('messages.online-courses') }} ({{ $t('messages.next') }})</span
         >
@@ -12,7 +12,7 @@
 
     <section class="mt-4 py-1">
       <h4 class="section-title mb-3">
-        <Icon class="icon" :icon="icons.projectFilled" />
+        <Icon class="icon" name="ant-design:project-filled" />
         <span class="section-title__text">{{ $t('messages.personal-projects') }}</span>
       </h4>
       <PersonalProjects :projects="personalProjects" />
@@ -20,7 +20,7 @@
 
     <section class="py-1">
       <h4 class="section-title mb-3">
-        <Icon class="icon" :icon="icons.goldFilled" />
+        <Icon class="icon" name="ant-design:gold-filled" />
         <span class="section-title__text">{{ $t('messages.achievements') }}</span>
       </h4>
       <Achievements :achievements="achievements" />
@@ -28,7 +28,7 @@
 
     <section class="mt-2 py-1">
       <h4 class="section-title mb-3">
-        <Icon class="icon" :icon="icons.translate" />
+        <Icon class="icon" name="mdi-translate" />
         <span class="section-title__text">{{ $t('messages.languages') }}</span>
       </h4>
       <Languages :languages="languages" />
@@ -36,10 +36,10 @@
 
     <section class="mt-2 py-1">
       <h4 class="section-title mb-3">
-        <Icon class="icon" :icon="icons.pacMan" />
+        <Icon class="icon" name="mdi:pac-man" />
         <span class="section-title__text">{{ $t('messages.interests') }}</span>
       </h4>
-      <Interests :interests="$t('interests')" />
+      <Interests :interests="$tm('interests')" />
     </section>
 
     <span class="page-number">
@@ -49,29 +49,23 @@
 </template>
 
 <script>
-import { Icon } from '@iconify/vue2';
-import certificate24Filled from '@iconify/icons-fluent/certificate-24-filled';
-import projectFilled from '@iconify/icons-ant-design/project-filled';
-import goldFilled from '@iconify/icons-ant-design/gold-filled';
-import translate from '@iconify/icons-mdi/translate';
-import pacMan from '@iconify/icons-mdi/pac-man';
 import Certificates from '~/components/Certificates';
 import PersonalProjects from '~/components/PersonalProjects';
 import Achievements from '~/components/Achievements';
 import Languages from '~/components/Languages';
 import Interests from '~/components/Interests';
 
-const certificates = require('~/data/certificates.json');
-const personalProjects = require('~/data/personalProjects.json');
-const achievements = require('~/data/achievements.json');
-const languages = require('~/data/languages.json');
+import certificates from '~/data/certificates.json';
+import personalProjects from '~/data/personalProjects.json';
+import achievements from '~/data/achievements.json';
+import languages from '~/data/languages.json';
 
 export default {
   name: 'Page4',
-  components: { Interests, Languages, Achievements, PersonalProjects, Certificates, Icon },
+  components: { Interests, Languages, Achievements, PersonalProjects, Certificates },
   data() {
+    console.log(this.$i18n)
     return {
-      icons: { certificate24Filled, projectFilled, goldFilled, translate, pacMan },
       certificates: certificates.slice(10, certificates.length),
       personalProjects,
       achievements,

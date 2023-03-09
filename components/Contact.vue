@@ -9,8 +9,6 @@
 </template>
 
 <script>
-import { Icon } from '@iconify/vue2';
-
 export default {
   name: 'Contact',
   props: {
@@ -19,7 +17,6 @@ export default {
       required: true,
     },
   },
-  components: { Icon },
 };
 </script>
 

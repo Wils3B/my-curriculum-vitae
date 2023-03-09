@@ -4,7 +4,7 @@
     <Contacts :contacts="contacts" class="mb-1" />
     <section class="pt-4">
       <h4 class="section-title mb-2">
-        <Icon class="icon" :icon="icons.outlineWorkIcon" />
+        <Icon class="icon" name="ic:outline-work" />
         <span class="section-title__text">{{ $t('messages.work-experience') }}</span>
       </h4>
       <WorkExperience :experience="experiences[0]" class="first" />
@@ -20,23 +20,20 @@
 <script>
 import PersonalInformation from '~/components/PersonalInformation';
 import Contacts from '~/components/Contacts';
-import contacts from '../data/contacts';
 import WorkExperience from '~/components/WorkExperience';
-import { Icon } from '@iconify/vue2';
-import outlineWorkIcon from '@iconify/icons-ic/outline-work';
 
-const personalInformation = require('../data/personalInformation.json');
-const experiences = require('../data/workExperience.json');
+import personalInformation from '../data/personalInformation.json';
+import experiences from '../data/workExperience.json';
+import contacts from '../data/contacts.json';
 
 export default {
   name: 'Page1',
-  components: { WorkExperience, Contacts, PersonalInformation, Icon },
+  components: { WorkExperience, Contacts, PersonalInformation },
   data() {
     return {
       personalInformation,
       contacts,
       experiences,
-      icons: { outlineWorkIcon },
     };
   },
 };

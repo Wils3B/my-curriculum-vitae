@@ -1,0 +1,35 @@
+[
+  {
+    "key": "mail",
+    "value": "wilstito@gmail.com",
+    "icon": "mdi:email"
+  },
+  {
+    "key": "telephone",
+    "value": "+237 699 28 21 25",
+    "icon": "carbon:phone-filled"
+  },
+  {
+    "key": "location",
+    "value": "contacts.location",
+    "icon": "carbon:location-filled"
+  },
+  {
+    "key": "linkedin_account",
+    "value": "wilson-gouanet",
+    "icon": "carbon:location-filled",
+    "link": "https://linkedin.com/in/wilson-gouanet"
+  },
+  {
+    "key": "github_account",
+    "value": "Wils3B",
+    "icon": "jam:github",
+    "link": "https://github.com/Wils3B"
+  },
+  {
+    "key": "turing_profile",
+    "value": "Turing Profile",
+    "icon": "carbon:user-avatar-filled",
+    "link": "https://matching.turing.com/developer-resume/8e78e6113c64df50f859307ccbd6201054c6ba0c3231dd"
+  }
+]

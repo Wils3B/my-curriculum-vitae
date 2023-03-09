@@ -21,6 +21,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '~/assets/scss/resources.scss';
+
 .education {
   padding-left: 2rem;
   padding-right: 1rem;

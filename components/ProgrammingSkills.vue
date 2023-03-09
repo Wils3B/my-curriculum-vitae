@@ -4,7 +4,7 @@
       <h5 class="mb-3 fw-medium">
         {{ $t(skill.title) }}
       </h5>
-      <Icon v-for="(icon, idx) of skill.icons" :key="idx" :icon="icon" class="icon" />
+      <Icon v-for="(icon) of skill.icons" :key="icon" :name="icon" class="icon" />
       <ul class="pl-3 mt-3 p">
         <li v-for="item of skill.skillItems" :key="item">
           {{ item }}
@@ -15,11 +15,8 @@
 </template>
 
 <script>
-import { Icon } from '@iconify/vue2';
-
 export default {
   name: 'ProgrammingSkills',
-  components: { Icon },
   props: {
     skills: {
       type: Array,
