@@ -1,12 +1,14 @@
 <template>
   <div class="background">
     <div class="content">
-      <nuxt />
+      <slot />
     </div>
   </div>
 </template>
 
 <style lang="scss" scoped>
+@import '~/assets/scss/resources.scss';
+
 .background {
   min-height: 100vh;
   display: flex;

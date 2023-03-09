@@ -2,15 +2,15 @@
   <div class="page">
     <section class="py-1">
       <h4 class="section-title mb-2">
-        <Icon class="icon" :icon="icons.cogsIcon" />
+        <Icon class="icon" name="el:cogs" />
         <span class="section-title__text">{{ $t('messages.skills') }}</span>
       </h4>
-      <Skills :skills="$t('skills')" />
+      <Skills :skills="skills" />
     </section>
 
     <section class="py-1 mt-4">
       <h4 class="section-title mb-2">
-        <Icon class="icon" :icon="icons.softwareIcon" />
+        <Icon class="icon" name="eos-icons:software" />
         <span class="section-title__text">{{ $t('messages.programming-skills') }}</span>
       </h4>
       <ProgrammingSkills :skills="programmingSkills" />
@@ -18,7 +18,7 @@
 
     <section class="mt-4 py-1">
       <h4 class="section-title mb-3">
-        <Icon class="icon" :icon="icons.certificate24Filled" />
+        <Icon class="icon" name="fluent:certificate-24-filled" />
         <span class="section-title__text">{{ $t('messages.online-courses') }}</span>
       </h4>
       <Certificates :certificates="certificates" />
@@ -31,28 +31,26 @@
 </template>
 
 <script>
-import emailIcon from '@iconify/icons-mdi/email';
-import schoolIcon from '@iconify/icons-mdi/school';
-import { Icon } from '@iconify/vue2';
-import softwareIcon from '@iconify/icons-eos-icons/software';
-import certificate24Filled from '@iconify/icons-fluent/certificate-24-filled';
 import ProgrammingSkills from '~/components/ProgrammingSkills';
 import Certificates from '~/components/Certificates';
 import Skills from '~/components/Skills';
 
-import programmingSkills from '~/data/programmingSkills';
-
-const certificates = require('~/data/certificates.json');
+import programmingSkills from '~~/data/programmingSkills.json';
+import certificates from '~/data/certificates.json';
 
 export default {
   name: 'Page3',
-  components: { Certificates, ProgrammingSkills, Icon, Skills },
+  components: { Certificates, ProgrammingSkills, Skills },
   data() {
     return {
       programmingSkills,
-      icons: { emailIcon, schoolIcon, softwareIcon, certificate24Filled },
       certificates: certificates.slice(0, 10),
     };
+  },
+  computed: {
+    skills() {
+      return this.$tm('skills').map(this.$rt)
+    }
   },
 };
 </script>

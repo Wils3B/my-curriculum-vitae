@@ -14,11 +14,11 @@
     </p>
     <ul class="pl-4 py-2 mb-0">
       <li
-        v-for="(item, index) of $t(experience.achievements)"
+        v-for="(item, index) of $tm(experience.achievements)"
         :key="index"
         :class="{ 'mb-1': index !== experience.achievements.length - 1 }"
       >
-        <VueShowdown class="mb-0 p-no-margin" :markdown="item" />
+        <VueShowdown class="mb-0 p-no-margin" :markdown="$rt(item)" />
       </li>
     </ul>
     <p class="mb-0 mt-1 fw-medium text-light">
@@ -40,6 +40,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '~/assets/scss/resources.scss';
+
 .experience {
   padding-left: 2rem;
   padding-right: 1rem;

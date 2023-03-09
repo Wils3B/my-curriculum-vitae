@@ -2,7 +2,7 @@
   <ul class="list-unstyled interests-list">
     <li class="mb-0 interest-col" v-for="interest of interests" :key="interest">
       <div class="interest-badge">
-        {{ interest }}
+        {{ $rt(interest) }}
       </div>
     </li>
   </ul>
@@ -21,6 +21,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '~/assets/scss/resources.scss';
+
 .interests-list {
   display: flex;
   flex-flow: row wrap;

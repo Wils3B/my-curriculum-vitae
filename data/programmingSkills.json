@@ -1,0 +1,32 @@
+[
+  {
+    "title": "ps.0.title",
+    "icons": ["logos:javascript", "logos:vue", "logos:react", "logos:reactivex", "akar-icons:jquery-fill"],
+    "skillItems": ["JavaScript, Java(JavaFX)", "VueJS, ReactJS, React Native, jQuery"]
+  },
+  {
+    "title": "ps.1.title",
+    "icons": ["logos:nodejs-icon", "logos:java", "logos:php"],
+    "skillItems": ["NodeJS, Java, PHP", "ExpressJS, NestJS, Spring, Socket.io"]
+  },
+  {
+    "title": "ps.2.title",
+    "icons": ["logos:html-5", "logos:css-3-official", "logos:sass", "logos:bootstrap", "logos:materializecss"],
+    "skillItems": ["HTML 5, CSS 3", "Sass & SCSS, Bootstrap, PostCSS, Tailwind"]
+  },
+  {
+    "title": "ps.3.title",
+    "icons": ["logos:docker-icon", "logos:linux-tux", "logos:nginx", "logos:apache", "logos:jenkins", "logos:git-icon", "logos:github-icon"],
+    "skillItems": ["Docker, Linux;", "Apache, Nginx;", "Github Actions, Jenkins"]
+  },
+  {
+    "title": "ps.4.title",
+    "icons": ["logos:jest", "logos:jasmine"],
+    "skillItems": ["Jest, Jasmine, Testcafe, Supertest"]
+  },
+  {
+    "title": "ps.5.title",
+    "icons": ["logos:mysql-icon", "logos:mongodb-icon"],
+    "skillItems": ["MySQL, MongoDB"]
+  }
+]

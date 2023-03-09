@@ -2,7 +2,7 @@
   <div class="page">
     <section>
       <h4 class="section-title mb-1">
-        <Icon class="icon" :icon="icons.outlineWorkIcon" />
+        <Icon class="icon" name="ic:outline-work" />
         <span class="section-title__text"
           >{{ $t('messages.work-experience') }} ({{ $t('messages.next') }})</span
         >
@@ -15,7 +15,7 @@
 
     <section class="pt-4">
       <h4 class="section-title mb-2">
-        <Icon class="icon" :icon="icons.schoolIcon" />
+        <Icon class="icon" name="mdi:school" />
         <span class="section-title__text">{{ $t('messages.education') }}</span>
       </h4>
       <Education :education="education[0]" class="first" />
@@ -30,24 +30,18 @@
 
 <script>
 import WorkExperience from '~/components/WorkExperience';
-import emailIcon from '@iconify/icons-mdi/email';
-import schoolIcon from '@iconify/icons-mdi/school';
-import { Icon } from '@iconify/vue2';
 import Education from '~/components/Education';
-import cogsIcon from '@iconify/icons-el/cogs';
-import outlineWorkIcon from '@iconify/icons-ic/outline-work';
 
-const experiences = require('../data/workExperience.json');
-const education = require('../data/education.json');
+import experiences from '../data/workExperience.json';
+import education from '../data/education.json';
 
 export default {
   name: 'Page2',
-  components: { Education, WorkExperience, Icon },
+  components: { Education, WorkExperience },
   data() {
     return {
       experiences,
       education,
-      icons: { emailIcon, schoolIcon, cogsIcon, outlineWorkIcon },
     };
   },
 };

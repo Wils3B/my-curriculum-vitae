@@ -23,6 +23,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '~/assets/scss/resources.scss';
+
 .skills-list {
   display: flex;
   flex-flow: row wrap;
