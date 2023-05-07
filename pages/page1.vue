@@ -7,12 +7,12 @@
         <Icon class="icon" name="ic:outline-work" />
         <span class="section-title__text">{{ $t('messages.work-experience') }}</span>
       </h4>
-      <WorkExperience :experience="experiences[0]" class="first" />
-      <WorkExperience :experience="experiences[1]" />
-      <WorkExperience :experience="experiences[2]" class="pb-0" />
+      <WorkExperience :experience="experiences.jam" class="first" />
+      <WorkExperience :experience="experiences.quable" />
+      <WorkExperience :experience="experiences.mda" class="pb-0" />
     </section>
     <span class="page-number">
-      {{ $t('messages.page-number', { current: 1, total: 4 }) }}
+      {{ $t('messages.page-number', { current: 1, total: 3 }) }}
     </span>
   </div>
 </template>
@@ -48,7 +48,7 @@ export default {
 
 @media print {
   .page-number {
-    transform: translateY(-10px);
+    transform: translateY(50px);
   }
 }
 </style>

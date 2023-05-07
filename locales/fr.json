@@ -12,80 +12,71 @@
     "personal-projects": "PROJETS PERSONNELS",
     "achievements": "RÉALISATIONS",
     "languages": "LANGUES",
-    "interests": "CENTRE D'INTÉRÊTS"
+    "interests": "CENTRE D'INTÉRÊTS",
+    "more-certificates": "plus de certificats et cours en ligne terminés"
   },
   "pi": {
     "title": "Développeur Full Stack",
-    "bio": "Amoureux des nouvelles technologies depuis toujours, Wilson est un développeur d'applications autodidacte qui a rejoint sa première entreprise fin 2019 en tant que développeur Web Front End. Intrigué par le développement d'apps de bout en bout, il a progressé pour devenir un développeur Full Stack avec des compétences en gestion de projet, en architecture logicielle et en SEO.\n\nIl est très enthousiaste à l'idée de relever le défi de rejoindre une nouvelle équipe, en travaillant bien avec cette équipe pour atteindre leurs objectifs."
+    "bio": "ADoté d'une solide expérience en matière de résolution de problèmes et de réflexion analytique, Wilson a prouvé qu'il était capable de fournir un travail de grande qualité et de dépasser les attentes. Il maîtrise plusieurs langages de programmation et s'engage à poursuivre son apprentissage et son développement professionnel.\n\nWilson sait résoudre les problèmes de manière créative et possède d'excellentes compétences en matière de communication et de relations interpersonnelles. Il s'attache à fournir des solutions novatrices qui répondent aux besoins des clients et des parties prenantes. Dans l'ensemble, c'est un professionnel dynamique et polyvalent qui apporte son énergie, son enthousiasme et son expertise à chaque projet ou rôle dans le domaine de l'ingénierie logicielle."
   },
   "contacts": {
     "location": "Yaoundé, Cameroun"
   },
-  "we": [
-    {
+  "we": {
+    "jam": {
+      "title": "FrontEnd Engineer",
+      "location": "Contract | Remote, France",
+      "description": "Jam platform is a gaming website where players select and play games. See at [https://jam.gg/play](https://jam.gg/play \"https://jam.gg/play\")",
+      "achievements": [
+        "Implement new React components and integrate them into pages on a full front-end refactoring process;",
+        "Fixing detected bugs."
+      ]
+    },
+    "quable": {
+      "title": "Software Engineer Consultant",
+      "location": "Remote, France",
+      "description": "As a consultant, I am on assignment at [Quable](https://quable.com/ \"Quable\"), working on the Quable's PIM as a FrontEnd developer",
+      "achievements": [
+        "Implement new React components and integrate them into pages on a full front-end refactoring process;",
+        "Fixing detected bugs."
+      ]
+    },
+    "mda": {
       "title": "Ingénieur Logiciel",
       "location": "",
       "achievements": [
         "Conception de sites web et d'applications à l'aide de NodeJS/ReactJS"
       ]
     },
-    {
-      "title": "Développeur Full Stack JavaScript",
+    "pntec": {
+      "title": "Développeur Full Stack",
       "location": "Yaoundé, Cameroun",
       "achievements": [
         "Mise en place d'une architecture qui suit les règles SOA et les principes SOLID pour nos applications back-end, ce qui permet un développement plus rapide des API pour les projets;",
-        "Développement du front-end avec NuxtJS, développement du back-end (REST API) avec NodeJS pour l'application refraiche ([Voir le résultat ↗](https://alpha.refraiche.com/ \"Voir le résultat ↗\"));",
+        "Développement du front-end avec NuxtJS, développement du back-end (REST API) avec NodeJS pour l'application refraiche ([Voir le résultat ↗](https://refraiche.com/ \"Voir le résultat ↗\"));",
+        "Développement d'une nouvelle solution de réservation d'hôtels et d'appartements meublés [PNBooking.com ↗](https://pnbooking.com \"PNBooking.com ↗\");",
         "Géstion de l'ensemble du cycle de vie du développement d'une application en temps réel pour le compteur de participants aux événements ([Voir le résultat ↗](http://149.202.41.46:4000 \"Voir le résultat ↗\"));",
         "Développement d'une page d'accueil pour le site web de BISI Tires ([Voir le résultat ↗](http://bisi-tires.com/ \"Voir le résultat ↗\"))."
       ]
     },
-    {
-      "title": "Développeur PHP, Chef de projet technique",
-      "location": "Yaoundé, Cameroun",
-      "description": "Cette période de 6 mois a été consacrée au développement d'une nouvelle solution de réservation d'hôtels et d'appartements meublés [PNBooking.com ↗](https://pnbooking.com \"PNBooking.com ↗\").",
-      "achievements": [
-        "Proposition de solution aux problèmes techniques pour la réalisation des modules de l'application et résolution des bugs sur l'application en production;",
-        "Développement de modules Prestashop pour étendre les fonctionnalités de l'application;",
-        "Mise en place d'une stratégie de référencement avec les balises standards, le vocabulaire Schema.org, les cartes twitter et l'open graph de Facebook;"
-      ]
-    },
-    {
+    "midjamo": {
       "title": "Freelance Full Stack Developer",
       "location": "Yaoundé, Cameroun",
       "description": "Mi'djamo est un prestataire de soins médicaux qui aide les hôpitaux à étendre leurs services jusqu'au domicile des patients. ([Voir sur Google Play ↗](https://play.google.com/store/apps/details?id=com.proxicare \"Voir sur Google Play ↗\"))",
       "achievements": [
-        "Développement de l’applications mobile avec React Native;",
-        "Développement d'API REST en back-end avec express JS."
+        "Développement de l’applications mobile avec React Native et Développement d'API REST en back-end avec express JS."
       ]
     },
-    {
+    "kathalog": {
       "title": "Développeur Front-End Freelance",
       "location": "Yaoundé, Cameroun",
       "description": "Kathalog est un site de recherche et de découverte de restaurants. Cette plateforme révèle la géolocalisation, les photos, les adresses et les menus des restaurants du Cameroun.",
       "achievements": [
         "Développement d'un tableau de bord pour gérer les opérations de lecture, et mettre à jour les ressources de l'application Kathalog.net;",
-        "Intégrer l'application back-end pour toutes les vues;",
-        "Réalisation de tests manuels pour s'assurer du bon fonctionnement de l'application."
-      ]
-    },
-    {
-      "title": "Développeur Front-End",
-      "location": "Yaoundé, Cameroun",
-      "achievements": [
-        "Créer des composants pour l'application web refraiche en utilisant l'approche de conception atomique;",
-        "Effectuer des tests en utilisant jest et Vue test utils;",
-        "Mise en place et développement du site web du centre médical sportif Yaoundé ([Voir le résultat ↗](https://centremedicalsportif-yaounde.com/ \"Voir le résultat ↗\"))."
-      ]
-    },
-    {
-      "title": "Développeur de logiciels (stage)",
-      "location": "Yaoundé, Cameroun",
-      "achievements": [
-        "Recherche et présentations sur les concepts de développement front-end ;",
-        "Assistance aux développeurs expérimentés pour les tâches de test manuel et l'établissement de rapports."
+        "Intégrer l'application back-end pour toutes les vues;"
       ]
     }
-  ],
+  },
   "education": [
     {
       "title": "Bac+2 en Mathématique et Science Physique",

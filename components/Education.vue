@@ -58,5 +58,9 @@ export default {
   &.last::after {
     height: 1.25rem;
   }
+
+  &.first.last::after {
+    display: none;
+  }
 }
 </style>
