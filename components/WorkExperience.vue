@@ -9,9 +9,9 @@
       <span v-if="experience.location"> · {{ $t(experience.location) }} </span>
       · {{ experience.period.start }} - {{ experience.period.end }}
     </h6>
-    <p v-if="experience.description" class="mb-1 font-italic text-light">
+    <div v-if="experience.description" class="mb-1 font-italic text-light">
       <vue-showdown class="p-no-margin text-light" :markdown="$t(experience.description)" />
-    </p>
+    </div>
     <ul class="pl-4 py-2 mb-0">
       <li
         v-for="(item, index) of $tm(experience.achievements)"

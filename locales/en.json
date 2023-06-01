@@ -25,7 +25,7 @@
   "we": {
     "jam": {
       "title": "FrontEnd Engineer",
-      "location": "Contract | Remote, France",
+      "location": "Contract ~ Remote, France",
       "description": "Jam platform is a gaming website where players select and play games. See at [https://jam.gg/play](https://jam.gg/play \"https://jam.gg/play\")",
       "achievements": [
         "Implement new React components and integrate them into pages on a full front-end refactoring process;",
@@ -34,8 +34,8 @@
     },
     "quable": {
       "title": "Software Engineer Consultant",
-      "location": "Full Time | Remote, France",
-      "description": "As a consultant, I am on assignment at [Quable](https://quable.com/ \"Quable\"), working on the Quable's PIM as a FrontEnd developer",
+      "location": "Full Time ~ Remote, France",
+      "description": "As a consultant, I was on assignment at [Quable](https://quable.com/ \"Quable\"), working on the Quable's PIM as a FrontEnd developer",
       "achievements": [
         "Search engine optimization, including the creation of custom sitemaps and restructuring page URLs using slugs, as well as the internationalization of URLs;",
         "Fixed some bugs and worked on designing and developing the mobile version of the game rooms.."
@@ -43,7 +43,7 @@
     },
     "mda": {
       "title": "Software Engineer",
-      "location": "",
+      "location": "Yaoundé, Cameroon",
       "achievements": [
         "Designing websites and applications using NodeJS/ReactJS",
         "Develop a client/server Pong game to learn GoLang. [View on Github](https://github.com/moderndesignagency/pong-exercise \"View on Github\") | [Play Game](https://md-pong-exercise.web.app/ \"Play Game\")"
