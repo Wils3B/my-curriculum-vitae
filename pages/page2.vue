@@ -7,10 +7,9 @@
           >{{ $t('messages.work-experience') }} ({{ $t('messages.next') }})</span
         >
       </h4>
-      <WorkExperience :experience="experiences[3]" class="first" />
-      <WorkExperience :experience="experiences[4]" />
-      <WorkExperience :experience="experiences[5]" />
-      <WorkExperience :experience="experiences[6]" class="last" />
+      <WorkExperience :experience="experiences.pntec" class="first" />
+      <WorkExperience :experience="experiences.midjamo" />
+      <WorkExperience :experience="experiences.kathalog" class="last" />
     </section>
 
     <section class="pt-4">
@@ -18,12 +17,19 @@
         <Icon class="icon" name="mdi:school" />
         <span class="section-title__text">{{ $t('messages.education') }}</span>
       </h4>
-      <Education :education="education[0]" class="first" />
-      <Education :education="education[1]" class="last" />
+      <Education :education="education[0]" class="first last" />
+    </section>
+
+    <section class="pt-4">
+      <h4 class="section-title mb-2">
+        <Icon class="icon" name="el:cogs" />
+        <span class="section-title__text">{{ $t('messages.skills') }}</span>
+      </h4>
+      <Skills :skills="skills" />
     </section>
 
     <span class="page-number">
-      {{ $t('messages.page-number', { current: 2, total: 4 }) }}
+      {{ $t('messages.page-number', { current: 2, total: 3 }) }}
     </span>
   </div>
 </template>
@@ -43,6 +49,11 @@ export default {
       experiences,
       education,
     };
+  },
+  computed: {
+    skills() {
+      return this.$tm('skills').map(this.$rt)
+    }
   },
 };
 </script>

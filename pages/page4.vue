@@ -64,7 +64,6 @@ export default {
   name: 'Page4',
   components: { Interests, Languages, Achievements, PersonalProjects, Certificates },
   data() {
-    console.log(this.$i18n)
     return {
       certificates: certificates.slice(10, certificates.length),
       personalProjects,

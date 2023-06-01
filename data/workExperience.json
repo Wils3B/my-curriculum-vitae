@@ -1,14 +1,33 @@
-[
-  {
-    "title": "we.0.title",
+{
+  "jam": {
+    "title": "we.jam.title",
+    "company": "Jam.gg",
+    "location": "we.jam.location",
+    "period": {
+      "start": "11/2022",
+      "end": "02/2023"
+    },
+    "description": "we.jam.description",
+    "achievements": "we.jam.achievements",
+    "technologies": [
+      "TypeScript",
+      "React.JS",
+      "React Testing Library",
+      "Firebase",
+      "Golang"
+    ],
+    "isCurrent": false
+  },
+  "quable": {
+    "title": "we.quable.title",
     "company": "Smart Consulting Center",
-    "location": "Remote, Full Time",
+    "location": "we.quable.location",
     "period": {
       "start": "06/2022",
       "end": "11/2022"
     },
-    "description": "we.0.description",
-    "achievements": "we.0.achievements",
+    "description": "we.quable.description",
+    "achievements": "we.quable.achievements",
     "technologies": [
       "TypeScript",
       "React.JS",
@@ -18,15 +37,15 @@
     ],
     "isCurrent": false
   },
-  {
-    "title": "we.1.title",
+  "mda": {
+    "title": "we.mda.title",
     "company": "Modern Design Agency",
-    "location": "Part Time",
+    "location": "we.mda.location",
     "period": {
       "start": "01/2022",
       "end": "06/2022"
     },
-    "achievements": "we.1.achievements",
+    "achievements": "we.mda.achievements",
     "technologies": [
       "TypeScript",
       "NodeJS",
@@ -38,15 +57,15 @@
     ],
     "isCurrent": false
   },
-  {
-    "title": "we.2.title",
+  "pntec": {
+    "title": "we.pntec.title",
     "company": "PNTEC Ltd",
-    "location": "we.1.location",
+    "location": "we.pntec.location",
     "period": {
-      "start": "02/2021",
+      "start": "09/2019",
       "end": "11/2021"
     },
-    "achievements": "we.2.achievements",
+    "achievements": "we.pntec.achievements",
     "technologies": [
       "TypeScript",
       "NodeJS",
@@ -59,67 +78,41 @@
     ],
     "isCurrent": false
   },
-  {
-    "title": "we.3.title",
-    "company": "PNTEC Ltd",
-    "location": "we.2.location",
-    "period": {
-      "start": "08/2020",
-      "end": "01/2021"
-    },
-    "description": "we.3.description",
-    "achievements": "we.3.achievements",
-    "technologies": ["PHP", "Smarty", "MySQL", "nginx", "Prestashop", "HTML 5", "CSS 3"],
-    "isCurrent": false
-  },
-  {
-    "title": "we.4.title",
+  "midjamo": {
+    "title": "we.midjamo.title",
     "company": "Mi'djamo",
-    "location": "we.4.location",
+    "location": "we.midjamo.location",
     "period": {
       "start": "05/2021",
       "end": "06/2021"
     },
-    "description": "we.4.description",
-    "achievements": "we.4.achievements",
-    "technologies": ["JavaScript", "NodeJS", "Express", "React Native", "Android"],
+    "description": "we.midjamo.description",
+    "achievements": "we.midjamo.achievements",
+    "technologies": [
+      "JavaScript",
+      "NodeJS",
+      "Express",
+      "React Native",
+      "Android"
+    ],
     "isCurrent": false
   },
-  {
-    "title": "we.5.title",
+  "kathalog": {
+    "title": "we.kathalog.title",
     "company": "Kathalog",
-    "location": "we.5.location",
+    "location": "we.kathalog.location",
     "period": {
       "start": "09/2020",
       "end": "10/2020"
     },
-    "description": "we.5.description",
-    "achievements": "we.5.achievements",
-    "technologies": ["JavaScript", "Express", "Firebase", "VueJS"],
-    "isCurrent": false
-  },
-  {
-    "title": "we.6.title",
-    "company": "PNTEC Ltd",
-    "location": "we.6.location",
-    "period": {
-      "start": "01/2020",
-      "end": "07/2020"
-    },
-    "achievements": "we.6.achievements",
-    "technologies": ["JavaScript", "VueJS", "HTML 5", "CSS 3"],
-    "isCurrent": false
-  },
-  {
-    "title": "we.7.title",
-    "company": "PNTEC Ltd",
-    "location": "we.7.location",
-    "period": {
-      "start": "10/2019",
-      "end": "12/2019"
-    },
-    "achievements": "we.7.achievements",
-    "technologies": ["JavaScript", "HTML 5", "CSS 3"],
+    "description": "we.kathalog.description",
+    "achievements": "we.kathalog.achievements",
+    "technologies": [
+      "JavaScript",
+      "Express",
+      "Firebase",
+      "VueJS"
+    ],
     "isCurrent": false
   }
-]
+}

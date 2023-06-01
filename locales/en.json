@@ -12,26 +12,36 @@
     "personal-projects": "Personal Projects",
     "achievements": "Achievements",
     "languages": "Languages",
-    "interests": "Interests"
+    "interests": "Interests",
+    "more-certificates": "more certificates and online course finished"
   },
   "pi": {
     "title": "Full Stack Software Developer",
-    "bio": "A lifelong lover of new technologies, Wilson is a self-taught app developer who joined his first company in late 2019 as a Front End Web Developer. Intrigued by end-to-end app development, he progressed to become a Full Stack developer with skills in project management, software architecture, and SEO. With his skills as a front-end developer and hard worker, he was the technical project manager for the development of the PNBooking product for his company in August 2020.\n\nHe is very excited about the challenge of joining a new team, working well with this team to achieve their goals."
+    "bio": "With a strong background in problem-solving and analytical thinking, Wilson has a proven track record of delivering high-quality work and exceeding expectations. He is proficient in various programming languages and is committed to continuous learning and professional development.\n\nWilson is a creative problem-solver with excellent communication and interpersonal skills, and is dedicated to delivering innovative solutions that meet the needs of clients or stakeholders. Overall, he is a dynamic and versatile professional who brings energy, enthusiasm, and expertise to every project or role in software engineering."
   },
   "contacts": {
     "location": "Yaoundé, Cameroon"
   },
-  "we": [
-    {
-      "title": "Software Engineer Consultant",
-      "location": "",
-      "description": "As a consultant, I am on assignment at [Quable](https://quable.com/ \"Quable\"), working on the Quable's PIM as a FrontEnd developer",
+  "we": {
+    "jam": {
+      "title": "FrontEnd Engineer",
+      "location": "Contract | Remote, France",
+      "description": "Jam platform is a gaming website where players select and play games. See at [https://jam.gg/play](https://jam.gg/play \"https://jam.gg/play\")",
       "achievements": [
         "Implement new React components and integrate them into pages on a full front-end refactoring process;",
         "Fixing detected bugs."
       ]
     },
-    {
+    "quable": {
+      "title": "Software Engineer Consultant",
+      "location": "Full Time | Remote, France",
+      "description": "As a consultant, I am on assignment at [Quable](https://quable.com/ \"Quable\"), working on the Quable's PIM as a FrontEnd developer",
+      "achievements": [
+        "Search engine optimization, including the creation of custom sitemaps and restructuring page URLs using slugs, as well as the internationalization of URLs;",
+        "Fixed some bugs and worked on designing and developing the mobile version of the game rooms.."
+      ]
+    },
+    "mda": {
       "title": "Software Engineer",
       "location": "",
       "achievements": [
@@ -39,63 +49,35 @@
         "Develop a client/server Pong game to learn GoLang. [View on Github](https://github.com/moderndesignagency/pong-exercise \"View on Github\") | [Play Game](https://md-pong-exercise.web.app/ \"Play Game\")"
       ]
     },
-    {
-      "title": "Full Stack JavaScript Developer, Head of back-end development",
+    "pntec": {
+      "title": "Software Developer",
       "location": "Yaoundé, Cameroon",
       "achievements": [
         "Establishment of an architecture that follows SOA rules and SOLID principles for our back end applications resulting in faster development of APIs for software projects;",
-        "Front-end development with NuxtJS, back-end development (REST API) with NodeJS for the refraiche application ([View result ↗](https://alpha.refraiche.com/ \"View result ↗\"));",
+        "Front-end development with NuxtJS, back-end development (REST API) with NodeJS for the refraiche application ([View result ↗](https://refraiche.com/ \"View result ↗\"));",
+        "Development as technical lead of a new solution for booking hotels and furnished apartments [PNBooking.com ↗](https://pnbooking.com \"PNBooking.com ↗\") with SEO strategy",
         "Performing tests using jest and Vue test utils;",
         "Manage entire development life cycle of real time application for events participants counter ([View result ↗](http://149.202.41.46:4000 \"View result ↗\"));",
         "Development of landing page for BISI Tires website ([View result ↗](http://bisi-tires.com/ \"View result ↗\"))."
       ]
     },
-    {
-      "title": "PHP Developer, Technical project leader",
-      "location": "Yaoundé, Cameroon",
-      "description": "This 6 month period was dedicated to the development of a new solution for booking hotels and furnished apartments [PNBooking.com ↗](https://pnbooking.com \"PNBooking.com ↗\")",
-      "achievements": [
-        "Proposal of solution to the technical problems for the realization of the modules of the application;",
-        "Development of new Prestashop modules to extend the functionality of the application;",
-        "Implementation of an SEO strategy with standard tags, Schema.org vocabulary, twitter cards and Facebook open graph."
-      ]
-    },
-    {
+    "midjamo": {
       "title": "Freelance Full Stack Developer",
       "location": "Yaoundé, Cameroon",
       "description": "Mi'djamo is a medical care provider that helps hospitals extend services to patient doorsteps. ([View on Google Play ↗](https://play.google.com/store/apps/details?id=com.proxicare \"View on Google Play ↗\"))",
       "achievements": [
-        "Mobile Application development with React Native;",
-        "Back-end REST API develoopmemt with express JS."
+        "Mobile Application development with React Native and Back-end REST API development with express JS."
       ]
     },
-    {
+    "kathalog": {
       "title": "Freelance Front-End Developer",
       "location": "Yaoundé, Cameroon",
       "description": "Kathalog is a restaurant search and discovery site. This platform reveals the geolocation, photos, addresses and menus of restaurants in Cameroon.",
       "achievements": [
-        "Development of a dashboard to manage the reading operations, and update the resources of the Kathalog.net application;",
-        "Integrate back-end application for all views."
-      ]
-    },
-    {
-      "title": "Front-End Developer",
-      "location": "Yaoundé, Cameroon",
-      "achievements": [
-        "Create components for the refraiche web application using atomic design approach;",
-        "Performing tests using jest and Vue test utils;",
-        "Set up and develop landing page for centre medical sportif website ([View result ↗](https://centremedicalsportif-yaounde.com/ \"View result ↗\"))."
-      ]
-    },
-    {
-      "title": "Software developer (Internship)",
-      "location": "Yaoundé, Cameroon",
-      "achievements": [
-        "Research and presentations on front-end development concepts;",
-        "Assistance to experienced developers with manual testing tasks and reporting."
+        "Development of a dashboard to manage the reading operations, and update the resources of the Kathalog.net application and Integrate back-end application for all views."
       ]
     }
-  ],
+  },
   "education": [
     {
       "title": "Bac+2 in Mathematics and Physics",
@@ -171,5 +153,12 @@
       "level": "Professional Working Proficiency"
     }
   ],
-  "interests": ["Video Games", "Astronomy", "Bicycle", "Open Source", "Political Series", "History"]
+  "interests": [
+    "Video Games",
+    "Astronomy",
+    "Bicycle",
+    "Open Source",
+    "Political Series",
+    "History"
+  ]
 }
